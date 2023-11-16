@@ -28,10 +28,12 @@ function GoalList() {
 
 function GoalsSettings() {
   return (
-    <div className="setting goal-container hidden">
-      <input type="text"></input>
-      <input type="file"></input>
-      <button>Add</button>
+    <div className="setting hidden">
+      <div className="goal-container">
+        <input type="text"></input>
+        <input type="file"></input>
+        <button>Add</button>
+      </div>
     </div>
   );
 }
